@@ -1,6 +1,6 @@
 
 
-# My Paper Title
+# Learning to Regress Occluded Human Body with Pseudo Surface Representation
 
 This repository is the official implementation of [Learning to Regress Occluded Human Body with Pseudo Surface Representation](https://arxiv.org/abs/2030.12345). 
 
@@ -55,12 +55,13 @@ You can download pretrained models here:
 
 Our model achieves the following performance on :
 
-### [3D  on the benchmark of 3DPW and OCHuman](https://paperswithcode.com/sota/image-classification-on-imagenet)
+### [3D  on the benchmark of 3DPW and OCHuman]
 
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
+You should obtain results in this table on 3DPW test set:
 
+| Method.            |    MPJPE↓       |    PA-MPJPE↓   |      PVE↓     |
+| ------------------ |---------------- | -------------- | ------------- |
+| MPQA w. 3DPW       |     71.6        |      44.8      |      83.4     |
 
 
 
