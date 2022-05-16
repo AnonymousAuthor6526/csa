@@ -34,12 +34,6 @@ To evaluate my model on the benchmark of 3DPW and OCHuman, go to the configs/vit
 python train.py --cfg configs/vit_test.yaml
 ```
 
-You should obtain results in this table on 3DPW test set:
-
-| Method.            |    MPJPE↓       |    PA-MPJPE↓   |      PVE↓     |
-| ------------------ |---------------- | -------------- | ------------- |
-| MPQA w. 3DPW       |     71.6        |      44.8      |      83.4     |
-
 
 
 
