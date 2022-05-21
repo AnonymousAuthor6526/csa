@@ -2,7 +2,6 @@
 
 # Learning to Regress Occluded Human Body with Pseudo Surface Representation
 
-This repository is the official implementation of [Learning to Regress Occluded Human Body with Pseudo Surface Representation](https://arxiv.org/abs/2030.12345). 
 
 
 
@@ -21,7 +20,7 @@ pip install -r requirements.txt
 To train the model(s) in the paper, run this command:
 
 ```train
-comming soon
+coming soon
 ```
 
 
@@ -31,7 +30,7 @@ comming soon
 To evaluate my model on the benchmark of 3DPW:
 
 ```eval
-comming soon
+coming soon
 ```
 
 
