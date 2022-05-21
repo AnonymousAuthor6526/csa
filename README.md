@@ -21,17 +21,17 @@ pip install -r requirements.txt
 To train the model(s) in the paper, run this command:
 
 ```train
-python train.py --cfg configs/vit_train.yaml
+comming soon
 ```
 
 
 
 ## Evaluation
 
-To evaluate my model on the benchmark of 3DPW and OCHuman, go to the configs/vit_test.yaml ,set the RUN_TEST = True, run:
+To evaluate my model on the benchmark of 3DPW:
 
 ```eval
-python train.py --cfg configs/vit_test.yaml
+comming soon
 ```
 
 
@@ -49,15 +49,11 @@ You can download pretrained models here:
 
 Our model achieves the following performance on :
 
-### [3D  on the benchmark of 3DPW and OCHuman]
+### [3D  on the benchmark of 3DPW]
 
 You should obtain results in this table on 3DPW test set:
 
 | Method.            |    MPJPE↓       |    PA-MPJPE↓   |      PVE↓     |
 | ------------------ |---------------- | -------------- | ------------- |
 | MPQA w. 3DPW       |     71.6        |      44.8      |      83.4     |
-
-
-
-## Contributing
 
