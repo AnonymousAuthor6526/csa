@@ -51,14 +51,8 @@ coming soon
 To evaluate the model on the benchmark of 3DPW:
 
 ```eval
-python main.py --cfg configs/mpqa_test.yaml
+python main.py --cfg configs/sspa_test.yaml
 ```
-
-## Pre-trained Models
-
-You can download pretrained models here:
-
-- [MPQA Pre-trained Models](https://drive.google.com/file/d/1WojbZvLfGFS8OzcRplwPIw2EeRWiGNd_/view?usp=sharing). 
 
 ## Results
 
