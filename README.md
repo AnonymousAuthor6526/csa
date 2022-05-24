@@ -40,7 +40,7 @@ coming soon
 
 You can download pretrained models here:
 
-- [MPQA Pre-trained Models](https://drive.google.com/file/d/1WojbZvLfGFS8OzcRplwPIw2EeRWiGNd_/view?usp=sharing) trained on 3DPW and OCHuman. 
+- [MPQA Pre-trained Models](https://drive.google.com/file/d/1WojbZvLfGFS8OzcRplwPIw2EeRWiGNd_/view?usp=sharing). 
 
 
 
