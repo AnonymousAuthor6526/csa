@@ -4,6 +4,8 @@
 
 ![framework](/assets/Fig1.png)
 
+This repository contains a human pose and shape estimation method that learns from unlabeled single image. As a component, MPQA is a lightweight and occlusion-robust human pose and shape regressor. This implementation includes evaluation and training code implemented in PyTorch.
+
 ## Requirements
 
 To install requirements:
@@ -11,8 +13,6 @@ To install requirements:
 ```setup
 pip install -r requirements.txt
 ```
-
-
 
 ## Training
 
@@ -22,8 +22,6 @@ To train the model(s) in the paper, run this command:
 coming soon
 ```
 
-
-
 ## Evaluation
 
 To evaluate the model on the benchmark of 3DPW:
@@ -32,16 +30,11 @@ To evaluate the model on the benchmark of 3DPW:
 python main.py --cfg configs/mpqa_test.yaml
 ```
 
-
-
-
 ## Pre-trained Models
 
 You can download pretrained models here:
 
 - [MPQA Pre-trained Models](https://drive.google.com/file/d/1WojbZvLfGFS8OzcRplwPIw2EeRWiGNd_/view?usp=sharing). 
-
-
 
 ## Results
 
