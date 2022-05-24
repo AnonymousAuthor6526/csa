@@ -27,7 +27,7 @@ coming soon
 
 ## Evaluation
 
-To evaluate my model on the benchmark of 3DPW:
+To evaluate the model on the benchmark of 3DPW:
 
 ```eval
 python main.py --cfg configs/mpqa_test.yaml
