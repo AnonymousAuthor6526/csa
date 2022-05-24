@@ -58,7 +58,7 @@ python main.py --cfg configs/sspa_test.yaml
 
 Our model achieves the following performance on :
 
-### [3D  on the benchmark of 3DPW]
+### [Evaluation on the benchmark of 3DPW]
 
 You should obtain results in this table on 3DPW test set:
 
