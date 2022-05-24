@@ -22,7 +22,7 @@ source install_conda.sh
 source prepare_data.sh
 '''
 
-'''
+'''Preparation of Data:
 data/
 ├── dataset_extras # Contains all pre-processed data
 ├── dataset_folders # Contains all datasets
