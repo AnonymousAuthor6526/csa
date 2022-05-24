@@ -4,15 +4,34 @@
 
 ![framework](/assets/Fig1.png)
 
-This repository contains a human pose and shape estimation method that learns from unlabeled single image. As a component, MPQA is a lightweight and occlusion-robust human pose and shape regressor. This implementation includes evaluation and training code implemented in PyTorch.
+This implementation includes evaluation and training code for SSPA and MPQA implemented in PyTorch. SSPA is a semi-supervised pseudo-attention framework for 3D human body estimation, learning from unlabeled single view. MPQA is a lightweight and occlusion-robust human pose and shape regressor.
 
-## Requirements
+## Getting Started
 
-To install requirements:
+The method has been implemented and tested on Ubuntu 20.04 with Python 3.7.
 
-```setup
-pip install -r requirements.txt
+```Clone the repo:
+https://github.com/AnonymousAuthor6526/mpqa.git
 ```
+
+'''Install the requirements using conda:
+source install_conda.sh
+'''
+
+'''Preparation of Data:
+source prepare_data.sh
+'''
+
+'''
+data/
+├── dataset_extras # Contains all pre-processed data
+├── dataset_folders # Contains all datasets
+├── sspa_w_3dpw_checkpoint.ckpt  # checkpoint with 3DPW training
+├── mpqa_wo_3dpw_checkpoint.ckpt # checkpoint without 3DPW training
+├── smpl 
+│   └── ... # SMPL Models
+└── ...
+'''
 
 ## Training
 
@@ -48,3 +67,6 @@ You should obtain results in this table on 3DPW test set:
 | ------------------ |---------------- | -------------- | ------------- |
 | MPQA w. 3DPW       |     71.6        |      44.8      |      83.4     |
 
+
+## License
+This code is available for non-commercial scientific research purposes as defined in the [LICENSE](https://github.com/AnonymousAuthor6526/mpqa/blob/main/LICENSE). By downloading and using this code you agree to the terms in the LICENSE. Third-party datasets and software are subject to their respective licenses.
