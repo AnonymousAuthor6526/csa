@@ -14,15 +14,19 @@ The method has been implemented and tested on Ubuntu 20.04 with Python 3.7.
 https://github.com/AnonymousAuthor6526/mpqa.git
 ```
 
-'''Install the requirements using conda:
+Install the requirements using conda:
+```shell
+# conda
 source install_conda.sh
-'''
+```
 
-'''Preparation of Data:
+Preparation of Data:
+```shell
 source prepare_data.sh
-'''
+```
 
-'''Preparation of Data:
+
+```shell
 data/
 ├── dataset_extras # Contains all pre-processed data
 ├── dataset_folders # Contains all datasets
@@ -31,7 +35,26 @@ data/
 ├── smpl 
 │   └── ... # SMPL Models
 └── ...
-'''
+```
+
+```shell
+dsr_data/
+├── dataset_extras # Contains all pre-processed data
+├── dataset_folders # Contains all datasets
+│   ├── coco
+│   │   ├── grph_sequences # Contains psuedo-GT Graphonomy Segmentation
+│   │   └── ...
+│   └── h36m
+│   │   ├── grph_sequences # Contains psuedo-GT Graphonomy Segmentation
+│   │   └── ...
+│   └── ... # Other datasets
+├── dsr_w3DPW_checkpoint.pt  # dsr_checkpoint with 3DPW training
+├── dsr_wo3DPW_checkpoint.pt # dsr_checkpoint without 3DPW training
+├── semantic_prior.npy # SMPL Semantic Prior
+├── smpl 
+│   └── ... # SMPL Models
+└── ...
+```
 
 ## Training
 
