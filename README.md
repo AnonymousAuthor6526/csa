@@ -25,32 +25,15 @@ Preparation of Data:
 source prepare_data.sh
 ```
 
+For preprocessing of dataset, please refer [SPIN](https://github.com/nkolot/SPIN) repo for more details. For the psuedo ground-truth of the training set, please download the required files from [EFT](https://github.com/facebookresearch/eft) repo.
 
+The final folder structure should look like:
 ```shell
 data/
 ├── dataset_extras # Contains all pre-processed data
 ├── dataset_folders # Contains all datasets
 ├── sspa_w_3dpw_checkpoint.ckpt  # checkpoint with 3DPW training
 ├── mpqa_wo_3dpw_checkpoint.ckpt # checkpoint without 3DPW training
-├── smpl 
-│   └── ... # SMPL Models
-└── ...
-```
-
-```shell
-dsr_data/
-├── dataset_extras # Contains all pre-processed data
-├── dataset_folders # Contains all datasets
-│   ├── coco
-│   │   ├── grph_sequences # Contains psuedo-GT Graphonomy Segmentation
-│   │   └── ...
-│   └── h36m
-│   │   ├── grph_sequences # Contains psuedo-GT Graphonomy Segmentation
-│   │   └── ...
-│   └── ... # Other datasets
-├── dsr_w3DPW_checkpoint.pt  # dsr_checkpoint with 3DPW training
-├── dsr_wo3DPW_checkpoint.pt # dsr_checkpoint without 3DPW training
-├── semantic_prior.npy # SMPL Semantic Prior
 ├── smpl 
 │   └── ... # SMPL Models
 └── ...
