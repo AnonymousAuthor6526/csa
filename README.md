@@ -16,13 +16,12 @@ https://github.com/AnonymousAuthor6526/mpqa.git
 
 Install the requirements using conda:
 ```shell
-# conda
-source install_conda.sh
+source scripts/install_conda.sh
 ```
 
 Preparation of Data:
 ```shell
-source prepare_data.sh
+source scripts/prepare_data.sh
 ```
 
 For preprocessing of dataset, please refer [SPIN](https://github.com/nkolot/SPIN) repo for more details. For the psuedo ground-truth of the training set, please download the required files from [EFT](https://github.com/facebookresearch/eft) repo.
