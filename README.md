@@ -2,7 +2,7 @@
 
 # Learning to Regress Occluded Human Body with Pseudo Surface Representation
 
-(assets\Fig1.png)
+framework.(assets\Fig1.png)
 
 ## Requirements
 
