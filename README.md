@@ -5,7 +5,7 @@
 
 ![framework](/assets/fig1.pdf)
 
-This implementation includes evaluation and training code for CSA implemented in PyTorch. CSA is an out-of-domain adaptation method for 3D human body estimation, learning from unlabeled single view.
+This implementation includes evaluation and training code for CSA implemented in PyTorch. CSA is an out-of-domain adaptation method for 3D human body estimation, which uses unlabeled monocular images to correct model bias prior to testing.
 
 ## Getting Started
 
