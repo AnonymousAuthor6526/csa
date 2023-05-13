@@ -1,10 +1,11 @@
 
 
-# Learning to Regress Occluded Human Body with Pseudo Surface Representation
+# Confidence Sharing Adaptation for Out-of-Domain Human Pose and Shape Estimation
 
-![framework](/assets/Fig1.png)
 
-This implementation includes evaluation and training code for SSPA and MPQA implemented in PyTorch. SSPA is a semi-supervised pseudo-attention framework for 3D human body estimation, learning from unlabeled single view. MPQA is a lightweight and occlusion-robust human pose and shape regressor.
+![framework](/assets/fig1.pdf)
+
+This implementation includes evaluation and training code for CSA implemented in PyTorch. CSA is an out-of-domain adaptation method for 3D human body estimation, learning from unlabeled single view.
 
 ## Getting Started
 
@@ -38,14 +39,6 @@ data/
 └── ...
 ```
 
-## Training
-
-To train the model(s) in the paper, run this command:
-
-```train
-coming soon
-```
-
 ## Evaluation
 
 To evaluate the model on the benchmark of 3DPW:
@@ -64,7 +57,7 @@ You should obtain results in this table on 3DPW test set:
 
 | Method.            |    MPJPE↓       |    PA-MPJPE↓   |      PVE↓     |
 | ------------------ |---------------- | -------------- | ------------- |
-| MPQA w. 3DPW       |     71.6        |      44.8      |      83.4     |
+| CSA w. 3DPW        |     71.6        |      44.8      |      83.4     |
 
 
 ## License
