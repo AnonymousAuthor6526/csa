@@ -12,7 +12,7 @@ This implementation includes evaluation and training code for CSA implemented in
 The method has been implemented and tested on Ubuntu 20.04 with Python 3.7.
 
 ```Clone the repo:
-https://github.com/AnonymousAuthor6526/csa.git
+https://github.com/bodymapper/csa.git
 ```
 
 Install the requirements using conda:
