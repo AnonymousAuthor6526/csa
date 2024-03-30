@@ -1,4 +1,4 @@
-# CUDA_VISIBLE_DEVICES=0 python train.py --cfg configs/mpqa_train.yaml
+# CUDA_VISIBLE_DEVICES=0 python train.py --cfg configs/csa_train.yaml
 
 LOG_DIR: 'logs'
 METHOD: 'MPQA'
