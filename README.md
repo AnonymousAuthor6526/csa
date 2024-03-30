@@ -44,7 +44,7 @@ data/
 To evaluate the model on the benchmark of 3DPW:
 
 ```eval
-python main.py --cfg configs/sspa_test.yaml
+python main.py --cfg configs/csa_test.yaml
 ```
 
 ## Results
