@@ -57,7 +57,9 @@ You should obtain results in this table on 3DPW test set:
 
 | Method.            |    MPJPE↓       |    PA-MPJPE↓   |      PVE↓     |
 | ------------------ |---------------- | -------------- | ------------- |
+| CSA wo. 3DPW       |     83.4        |      49.7      |      97.0     |
 | CSA w. 3DPW        |     71.6        |      44.8      |      83.4     |
+| CSA w. adapt       |     73.5        |      46.0      |      85.8     |
 
 
 ## License
